@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a full-stack web developer who specializes in building responsive and modern web applications using React.js, Next.js, and Node.js. I have hands-on experience with REST API integration, scalable deployments, and collaborative projects. I enjoy solving real-world problems with clean code and practical design."
+  },
+  "recentProject": {
+    "title": "Recent Project",
+    "link": "All Project",
+    "button": "View Poject",
+    "project1": {
+      "title": "Perfumes App",
+      "description": "Is a modern web application designed to explore and showcase a collection of perfumes with a clean, responsive interface."
+    },
+    "project2": {
+      "title": "Personal Website",
+      "description": "This is my personal portfolio where I share everything I've worked on, designed with a cozy Studio Ghibli-inspired look. It's built with Next.js, Tailwind CSS, and shadcn/ui, and supports both English and Indonesian using Next Intl."
+    },
+    "project3": {
+      "title": "Expert System",
+      "description": "A full-stack application implementing the Certainty Factor method for decision-making. Built with Express.js and MySQL on the backend, and React.js with Tailwind CSS on the frontend."
+    }
+  },
+  "latestBlog": {
+    "title": "Latest Blog Posts",
+    "button": "Read More",
+    "empty": "No recent posts available."
+  },
+  "CTASection": {
+    "title": "Let's Build Together",
+    "description": "Interested in building something awesome? I'm a passionate web developer with proven personal projects. Let's collaborate and make it happen.",
+    "button": "Contact me NOW!"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "leftSide": {
+      "title": "Contact Information",
+      "description": "I'm here to help and answer any question you might have.",
+      "location": "Location"
+    },
+    "rightSide": {
+      "title": "Send me a Message",
+      "description": "Send a note, i'll reply soon.",
+      "placeholder": {
+        "name": "Your name or what should i call you?",
+        "email": "Your email so i can get back to you",
+        "subject": "give me a hint...",
+        "message": "Tell me what's on your mind or just say hello"
+      },
+      "button": "Send Message",
+      "buttonLoading": "Sending...",
+      "success": "Thank you for reaching out! I'll get back to you as soon as possible.",
+      "error": "Message failed to send"
+    }
+  }
+}

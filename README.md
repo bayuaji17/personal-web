@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Website V2 🌟
 
-## Getting Started
+Welcome to my personal website's second version! This is a modern, responsive personal portfolio website built with cutting-edge technologies.
 
-First, run the development server:
+## 🚀 Features
 
+- 🌓 Dark/Light mode support
+- 🌐 Internationalization (i18n) support
+- 📱 Fully responsive design
+- ⚡ Built with Next.js 15 and React 19
+- 🎨 Styled with Tailwind CSS
+- 🔄 Form handling with React Hook Form
+- ✉️ Contact form with email integration
+- 🎯 TypeScript for type safety
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components:** [Shadcn UI](https://https://ui.shadcn.com//)
+- **Form Handling:** [React Hook Form](https://react-hook-form.com/)
+- **Validation:** [Zod](https://zod.dev/)
+- **Email Service:** [Resend](https://resend.com)
+- **Internationalization:** [next-intl](https://next-intl-docs.vercel.app/)
+- **Theme:** [next-themes](https://github.com/pacocoursey/next-themes)
+
+## 🏁 Getting Started
+
+1. Clone the repository:
 ```bash
-npm run dev
+git clone https://github.com/bayuaji17/personal-web-v2.git
+cd personal-web-v2
+```
+
+2. Install dependencies:
+```bash
+yarn install
 # or
+npm install
+# or
+bun install
+```
+
+3. Run the development server:
+```bash
 yarn dev
 # or
-pnpm dev
+npm run dev
 # or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `yarn dev` - Start development server with Turbopack
+- `yarn build` - Build for production
+- `yarn start` - Start production server
+- `yarn lint` - Run ESLint
 
-## Learn More
+## 🔧 Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env.local` file in the root directory and add the following variables:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+RESEND_API_KEY=your_resend_api_key
+NEXT_PUBLIC_BASE_URL=your_site
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 License
 
-## Deploy on Vercel
+This project is open source and available under the [MIT License](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Bayu Aji** - [GitHub](https://github.com/bayuaji17)
+
+## 🔄 Version History
+
+- **V2** - Current version (Next.js 15, React 19, TypeScript)
+- **V1** - [Previous version](https://github.com/bayuaji17/personal-website)
+
+---
+
+⭐ Star this repository if you find it helpful!
