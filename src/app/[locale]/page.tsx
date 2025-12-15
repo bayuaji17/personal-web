@@ -3,8 +3,9 @@ import AboutSection from "@/components/home-component/AboutSection";
 import CTASection from "@/components/home-component/CTASection";
 import ProfileSection from "@/components/home-component/ProfileSection";
 import RecentProject from "@/components/home-component/RecentProjectSection";
-import SkillsSection from "@/components/home-component/SkillsSection";
+// import SkillsSection from "@/components/home-component/SkillsSection";
 import { BlurFade } from "@/components/BlurFade";
+import CTADocsSection from "@/components/home-component/CTADocsSection";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
         <ProfileSection />
         <AboutSection />
         <RecentProject />
-        <SkillsSection />
+        <CTADocsSection />
+        {/* <SkillsSection /> */}
         <CTASection />
       </div>
     </BlurFade>

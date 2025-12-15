@@ -1,5 +1,5 @@
 {
-   "navbar": {
+  "navbar": {
     "home": "Beranda",
     "projects": "Proyek",
     "contact": "Kontak"
@@ -29,6 +29,11 @@
     "title": "Blog Terbaru",
     "button": "Baca Selengkapnya",
     "empty": "Tidak ada artikel terbaru"
+  },
+  "CTADocsSection": {
+    "title": "Kumpulan Cheat Sheet Saya",
+    "description": "Sedang merasa buntu atau butuh jawaban cepat? Kumpulan cheat sheet yang saya susun ini bisa membantu Anda melangkah lebih cepat.",
+    "button": "Lihat Kumpulan Cheat Sheet"
   },
   "CTASection": {
     "title": "Ayo Bangun Sesuatu Bersama",

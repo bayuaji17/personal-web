@@ -30,6 +30,11 @@
     "button": "Read More",
     "empty": "No recent posts available."
   },
+  "CTADocsSection": {
+    "title": "My Cheat Sheets",
+    "description": "Feeling stuck or looking for quick answers? My curated cheatsheets can help you move forward faster.",
+    "button": "Explore the Cheat Sheets"
+  },
   "CTASection": {
     "title": "Let's Build Together",
     "description": "Interested in building something awesome? I'm a passionate web developer with proven personal projects. Let's collaborate and make it happen.",

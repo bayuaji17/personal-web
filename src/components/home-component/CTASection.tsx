@@ -27,7 +27,7 @@ export default function CTASection() {
       </CardContent>
       <CardFooter>
         <Button className="w-full text-2xl text-popover" size={"lg"} asChild>
-          <Link href={`${locale}/projects`} prefetch>
+          <Link href={`${locale}/contact`} prefetch>
             {t("button")}
           </Link>
         </Button>
