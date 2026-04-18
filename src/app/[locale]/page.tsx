@@ -15,7 +15,6 @@ export default function Home() {
         <AboutSection />
         <RecentProject />
         <CTADocsSection />
-        {/* <SkillsSection /> */}
         <CTASection />
       </div>
     </BlurFade>

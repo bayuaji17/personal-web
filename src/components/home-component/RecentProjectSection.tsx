@@ -16,6 +16,21 @@ export default function RecentProject() {
   const t = useTranslations("recentProject");
   const project = [
     {
+      id: 0,
+      titleKey: "project0.title",
+      descriptionKey: "project0.description",
+      url: "https://github.com/bayuaji17/ordozeus-shop",
+      tag: [
+        "Next Js",
+        "Supabase",
+        "Zustand",
+        "Drizzle ORM",
+        "Shadcn/UI",
+        "Cloudflare R2",
+        "Better Auth",
+      ],
+    },
+    {
       id: 1,
       titleKey: "project1.title",
       descriptionKey: "project1.description",
@@ -28,13 +43,6 @@ export default function RecentProject() {
       descriptionKey: "project2.description",
       url: "https://github.com/bayuaji17/personal-web",
       tag: ["Next.js", "Tailwind CSS", "Resend", "Shadcn/UI"],
-    },
-    {
-      id: 3,
-      titleKey: "project3.title",
-      descriptionKey: "project3.description",
-      url: "https://github.com/bayuaji17/TA-Front-End",
-      tag: ["React.js", "Express.js", "MySQL", "Tailwind CSS"],
     },
   ];
 

@@ -1,8 +1,7 @@
 import { ReactNode } from "react";
 import { Metadata } from "next";
 
-const baseUrl =
-  process.env.NEXT_PUBLIC_BASE_URL || "https://bandev.my.id";
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://bandev.my.id";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
@@ -19,7 +18,7 @@ export const metadata: Metadata = {
     "Portfolio",
     "Full Stack Web Developer",
     "Express.js",
-    "Back End Developer"
+    "Back End Developer",
   ],
   robots: {
     index: true,
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Bayu Aji Nugroho",
     images: [
       {
-        url: "/profile_wpap.webp",
+        url: "/profile_anime.webp",
         width: 1200,
         height: 630,
         alt: "Bayu Aji Nugroho - Web Developer",
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bayu Aji Nugroho | Web Developer",
     description: "Personal website of Bayu Aji Nugroho, a Web Developer",
-    images: ["/profile_wpap.webp"],
+    images: ["/profile_anime.webp"],
   },
   alternates: {
     canonical: baseUrl,

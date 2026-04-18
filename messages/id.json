@@ -12,6 +12,10 @@
     "title": "Proyek Terbaru",
     "link": "Semua Proyek",
     "button": "Lihat Proyek",
+    "project0": {
+      "title": "Toko Online Pakaian",
+      "description": "Aplikasi e-commerce fashion modern dengan katalog produk, keranjang belanja, autentikasi pengguna, dan desain responsif untuk pengalaman belanja online yang lancar."
+    },
     "project1": {
       "title": "Aplikasi Parfum",
       "description": "Aplikasi web modern yang dirancang untuk mengeksplorasi dan menampilkan koleksi parfum dengan antarmuka yang bersih dan responsif."

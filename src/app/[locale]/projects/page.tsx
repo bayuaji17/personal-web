@@ -6,11 +6,27 @@ import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 export default function ProjectPages() {
   const t = useTranslations("recentProject");
   const ProjectCard = [
+    {
+      titleKey: "project0.title",
+      descriptionKey: "project0.description",
+      imageUrl: "/fashion-ecommerce.webp",
+      technologies: [
+        "Next Js",
+        "Supabase",
+        "Drizzle ORM",
+        "Shadcn/UI",
+        "Better Auth",
+        "Cloudflare R2",
+        "Zustand",
+        "Xendit",
+      ],
+      liveUrl: "https://ordozeus-shop.vercel.app/",
+      githubUrl: "https://github.com/bayuaji17/ordozeus-shop",
+    },
     {
       titleKey: "project1.title",
       descriptionKey: "project1.description",
@@ -32,7 +48,13 @@ export default function ProjectPages() {
       titleKey: "project2.title",
       descriptionKey: "project2.description",
       imageUrl: "/personal_site.webp",
-      technologies: ["Next Js", "TailwindCSS", "Shadcn/UI", "Next-intl","Resend"],
+      technologies: [
+        "Next Js",
+        "TailwindCSS",
+        "Shadcn/UI",
+        "Next-intl",
+        "Resend",
+      ],
       liveUrl: "/",
       githubUrl: "https://github.com/bayuaji17/personal-web",
     },

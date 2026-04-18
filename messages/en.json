@@ -11,7 +11,11 @@
   "recentProject": {
     "title": "Recent Project",
     "link": "All Project",
-    "button": "View Poject",
+    "button": "View Project",
+    "project0": {
+      "title": "Fashion E-commerce",
+      "description": "A modern fashion e-commerce application with product catalog, shopping cart, user authentication, and responsive design for a seamless online shopping experience."
+    },
     "project1": {
       "title": "Perfumes App",
       "description": "Is a modern web application designed to explore and showcase a collection of perfumes with a clean, responsive interface."
